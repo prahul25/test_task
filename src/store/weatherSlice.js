@@ -16,7 +16,7 @@ export const fetchWeather = createAsyncThunk(
       const responses = await Promise.all(
         newLocations.map((data) =>
           fetch(
-            `http://api.weatherapi.com/v1/current.json?key=c8d559c73bc949da91e65507252701&q=${data.location}&aqi=no`
+            `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${data.location}&aqi=no`
           ).then((res) => (res.ok ? res.json() : Promise.reject("Failed to fetch")))
         )
       );

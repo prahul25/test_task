@@ -9,7 +9,6 @@ export default function Login() {
   const [username, setUsername] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
   const handleLogin = () => {
     if (username.trim() !== "") {
       dispatch(login({ name: username }));
