@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Task Manager App 📝  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple yet powerful Task Manager application built using **React**, **Redux**, and **Material UI**. The app allows users to add, manage, and delete tasks while also displaying real-time weather data for outdoor tasks.
+## 🎥 How to Use  
 
-## Available Scripts
+Watch the demo video to learn how to use this To-Do application:  
 
-In the project directory, you can run:
+[![test_task](https://img.youtube.com/vi/ToX2TrFjvF0/maxresdefault.jpg)](https://www.youtube.com/watch?v=ToX2TrFjvF0)
 
-### `npm start`
+## 🚀 Features  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add, edit, and delete tasks  
+- Categorize tasks as **Indoor** or **Outdoor**  
+- Assign priority levels (**High, Medium, Low**)  
+- Fetch real-time weather conditions for outdoor tasks  
+- Fully responsive and modern UI with Material UI  
+- Enhanced task display with priority-based styling  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Tech Stack  
 
-### `npm test`
+- **Frontend**: React, Redux Toolkit, Material UI  
+- **State Management**: Redux  
+- **Styling**: Material UI & Custom CSS  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation  
 
-### `npm run build`
+Follow these steps to set up the project locally:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/your-username/task-manager.git
+cd task-manager
+npm install
+npm start
+```
+## 📌 Usage  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Add a Task**  
+   - Enter the task name in the input field.  
+   - Select the priority (**High, Medium, Low**).  
+   - Choose the task type (**Indoor or Outdoor**).  
+   - If the task is **Outdoor**, provide the location.  
+   - Click the **"Add"** button to save the task.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **View Tasks**  
+   - All tasks are displayed in a structured list.  
+   - Priority levels are color-coded for better visibility.  
 
-### `npm run eject`
+3. **Weather Updates**  
+   - For **Outdoor** tasks, the app fetches real-time weather data based on the provided location.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Delete Task**  
+   - Click the **delete button** next to a task to remove it from the list.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Logout**  
+   - Click the **logout button** on the top right to sign out of the application.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Future Enhancements  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Task Editing**: Enable task modification.  
+- **Filtering & Sorting**: View tasks by priority, type, or status.  
+- **Due Dates & Reminders**: Set deadlines with notifications.  
+- **Completion Status**: Mark tasks as completed.  
+- **Dark Mode**: Toggle between light and dark themes.  
+- **Cloud Syncing**: Store tasks online for multi-device access.  
+- **Recurring Tasks**: Support for daily, weekly, or monthly tasks.  
+- **Drag & Drop**: Reorder tasks easily.  
